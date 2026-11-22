@@ -1,0 +1,32 @@
+{
+  "features": [
+    {
+      "title": "Identify the earliest publicly available Minecraft reference",
+      "body": "Verify the May 2009 release chronology, including 0.0.10a and 0.0.11a. Distinguish original public availability, playability and the provenance of surviving artifacts. Recommend the earliest sufficiently documented reference and record uncertainties."
+    },
+    {
+      "title": "Document sources and observed historical behavior",
+      "body": "Record dated evidence for controls, behavior, constraints and reported bugs. Mark confidence, conflicts, artifact provenance and any rights restrictions. Keep reference binaries and code outside Git."
+    },
+    {
+      "title": "Define the first Craft++ feature scope",
+      "body": "After the reference decision, document genre-level capabilities in scope, explicit exclusions, original design choices and observable acceptance criteria. Record how historical quirks inform design decisions."
+    },
+    {
+      "title": "Specify the C++ toolchain and repository layout",
+      "body": "Record supported MSVC and Windows SDK versions, the C++ standard, CMake version and directories. Describe how Visual Studio and VS Code will use shared presets and preserve a path to Linux."
+    },
+    {
+      "title": "Evaluate rendering backends, including Vulkan",
+      "body": "Compare Vulkan and credible alternatives on Windows and Linux support, portability, debugging, driver coverage and implementation cost. Record the decision and the profiling evidence needed to validate assumptions."
+    },
+    {
+      "title": "Set up a reproducible CMake build",
+      "body": "After toolchain selection and once a real target exists, add shared configure and build presets for Windows x64. Verify both IDE entry points from a clean checkout and document prerequisites and commands."
+    },
+    {
+      "title": "Prepare the first historically informed implementation",
+      "body": "After the reference, feature scope and technical decisions are recorded, define a small implementation sequence and acceptance checks for original Craft++ gameplay and assets. Document the first actionable slice."
+    }
+  ]
+}

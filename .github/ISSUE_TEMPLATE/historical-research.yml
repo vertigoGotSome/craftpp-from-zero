@@ -1,0 +1,22 @@
+name: Historical research and version comparison
+description: Collect historical evidence for a Craft++ stage
+labels: ["historical-research"]
+body:
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference version or research question
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources, provenance and confidence
+    validations:
+      required: true
+  - type: textarea
+    id: observations
+    attributes:
+      label: Observed behavior, gaps and design implications
+    validations:
+      required: true
