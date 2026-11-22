@@ -4,7 +4,7 @@ Craft++ is an independent C++ voxel sandbox project informed by the history of M
 
 Development will follow the documented sequence of early Minecraft releases as a design reference. Each stage will record the evidence, the capabilities it informs, and deliberate design departures. Craft++ is unaffiliated with Mojang and Microsoft.
 
-The project is in setup. There is no playable build or verified build command. Windows x64 and Visual Studio are the primary targets, with Visual Studio Code as an alternative and Linux planned later. The future Windows executable is `craftpp.exe`.
+The project is in setup. Open [CraftPP.sln](CraftPP.sln) in Visual Studio 2026 to edit and build the Windows x64 world library. The library contains source placeholders. The playable application is still planned. Visual Studio Code can be used as an alternate editor, and Linux support is planned later. The future Windows executable is `craftpp.exe`.
 
 - [Project vision](docs/PROJECT_VISION.md)
 - [Roadmap](docs/ROADMAP.md)

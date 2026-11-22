@@ -1,0 +1,12 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="World">
+      <UniqueIdentifier>{0B146622-548B-4381-A347-4931775B6604}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\world\block_type.hpp"><Filter>World</Filter></ClInclude>
+    <ClInclude Include="src\world\voxel_grid.hpp"><Filter>World</Filter></ClInclude>
+    <ClCompile Include="src\world\voxel_grid.cpp"><Filter>World</Filter></ClCompile>
+  </ItemGroup>
+</Project>

@@ -4,4 +4,4 @@ Use English for technical work. Start substantial changes from a GitHub issue an
 
 Use EditorConfig and clang-format. Document public contracts, reasons and constraints. Keep local notes, captures and research artifacts under ignored `work/`. Cite public evidence by link. Verify rights before proposing any external code or assets for inclusion.
 
-Report the checks you ran and their outcomes in the pull request. Setup changes use static checks. Build and test commands will be documented once verified.
+Report the checks you ran and their outcomes in the pull request. For Windows build commands, see [Windows development](docs/ARCHITECTURE.md#windows-development).
