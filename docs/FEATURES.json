@@ -14,15 +14,15 @@
     },
     {
       "title": "Specify the C++ toolchain and repository layout",
-      "body": "Record supported MSVC and Windows SDK versions, the C++ standard, CMake version and directories. Describe how Visual Studio and VS Code will use shared presets and preserve a path to Linux."
+      "body": "Document the Visual Studio 2026 MSVC toolset, Windows SDK, C++ standard, source layout and path to later Linux support."
     },
     {
       "title": "Evaluate rendering backends, including Vulkan",
       "body": "Compare Vulkan and credible alternatives on Windows and Linux support, portability, debugging, driver coverage and implementation cost. Record the decision and the profiling evidence needed to validate assumptions."
     },
     {
-      "title": "Set up a reproducible CMake build",
-      "body": "After toolchain selection and once a real target exists, add shared configure and build presets for Windows x64. Verify both IDE entry points from a clean checkout and document prerequisites and commands."
+      "title": "Set up a reproducible Visual Studio and MSBuild build",
+      "body": "Add a native Visual Studio solution with a Windows x64 world library. Verify Debug and Release builds and document how to open and build the solution."
     },
     {
       "title": "Prepare the first historically informed implementation",
